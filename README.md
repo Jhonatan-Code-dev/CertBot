@@ -1,4 +1,5 @@
 # Certbot Automation Script
+
 <p align="center">
   <img src="https://certbot.eff.org/assets/certbot-logo-1A-6d3526936bd519275528105555f03904956c040da2be6ee981ef4777389a4cd2.svg" alt="Certbot Logo">
 </p>
@@ -6,6 +7,14 @@
 ## Descripción
 
 Este script está diseñado para automatizar la configuración, instalación y renovación de certificados SSL utilizando **Certbot** en servidores basados en AlmaLinux. El script también se asegura de que el firewall esté configurado correctamente y permite la renovación automática de los certificados SSL. Actualmente está configurado para funcionar en **AlmaLinux**, pero está diseñado para ser adaptable a otros sistemas operativos Linux.
+
+## Sistemas operativos compatibles
+
+<p align="center">
+  <img src="https://almalinux.org/images/logo.svg" alt="AlmaLinux Logo" width="150">
+</p>
+
+- **AlmaLinux**: Este script ha sido probado y está optimizado para AlmaLinux, una distribución empresarial gratuita que ofrece estabilidad y soporte a largo plazo.
 
 ## Requisitos
 
@@ -26,10 +35,10 @@ Este script está diseñado para automatizar la configuración, instalación y r
 
 1. **Clona o descarga este repositorio en tu servidor**.
 
-2. **Ejecuta el script**:
+2. **Ejecuta el script**:  
    Asegúrate de tener acceso root y de que tu dominio esté correctamente configurado para apuntar a la máquina donde ejecutarás el script.
 
    Puedes iniciar el script con privilegios ejecutando el siguiente comando:
 
    ```bash
-   [ -f /home/opc/certbot.sh ] && chmod +x /home/opc/certbot.sh && sudo /home/opc/certbot.sh
+   [ -f /home/opc/certbotAlmaLinux.sh ] && chmod +x /home/opc/certbotAlmaLinux.sh && sudo /home/opc/certbotAlmaLinux.sh
