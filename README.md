@@ -11,7 +11,7 @@ Este script está diseñado para automatizar la configuración, instalación y r
 ## Sistemas operativos compatibles
 
 <p align="center">
-  <img src="https://almalinux.org/images/logo.svg" alt="AlmaLinux Logo" width="150">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/AlmaLinux_Icon_Logo.svg/768px-AlmaLinux_Icon_Logo.svg.png" alt="AlmaLinux Logo" width="150">
 </p>
 
 - **AlmaLinux**: Este script ha sido probado y está optimizado para AlmaLinux, una distribución empresarial gratuita que ofrece estabilidad y soporte a largo plazo.
